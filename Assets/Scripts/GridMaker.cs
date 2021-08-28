@@ -10,12 +10,15 @@ public class GridMaker : MonoBehaviour
     [SerializeField] private int gridHeight = 10;
     [SerializeField] private int cellSize = 5;
     
+    public int CellSize {get {return cellSize;}}
 
     int [,] groundCells;
     Dictionary<System.Tuple<int , int>, int> beltCells;
     
     private static long updateCount = 0;
     
+    
+
     void Start()
     {
         loadGrid();
@@ -24,6 +27,11 @@ public class GridMaker : MonoBehaviour
     public void OnValidate()
     {
         loadGrid();
+    }
+
+    public void SetGridBlue(int x , int y)
+    {
+        groundCells[x,y] = 2;        
     }
 
     public void OnDrawGizmos()
@@ -35,11 +43,23 @@ public class GridMaker : MonoBehaviour
         for (int gridX = 0 ; gridX < gridWidth ; gridX++)
             for(int gridY = 0 ; gridY < gridHeight ; gridY++)
                 {
-                    if (groundCells[gridX,gridY] == 1)
+                    int left = gridX * cellSize;
+                    int right = left + cellSize;
+                    int top = gridY * cellSize;
+                    int bottom = top + cellSize;
+                    if (groundCells[gridX,gridY] > 0)
                     {
-                        Gizmos.DrawLine(new Vector3(gridX * cellSize , gridY * cellSize , 0) , new Vector3((gridX*cellSize)+cellSize , gridY * cellSize, 0) );
-                        Gizmos.DrawLine(new Vector3((gridX*cellSize)+cellSize , gridY*cellSize , 0) , new Vector3((gridX*cellSize)+cellSize , (gridY*cellSize)+cellSize , 0) );
-                        
+                        switch ( groundCells[gridX,gridY])
+                        {
+                            case 1 : Gizmos.color = Color.blue;break;
+                            case 2 : Gizmos.color = Color.red;break;
+                        }
+                        Gizmos.DrawLine(new Vector3(left , top, 0) , new Vector3(right , top, 0) );
+                        Gizmos.DrawLine(new Vector3(right , top , 0) , new Vector3(right , bottom , 0) );
+                        Gizmos.DrawLine(new Vector3(right , bottom , 0) , new Vector3(left , bottom , 0) );
+                        Gizmos.DrawLine(new Vector3(left , bottom , 0) , new Vector3(left , top , 0) );
+                        //
+
                     }
                 }
 
@@ -47,7 +67,7 @@ public class GridMaker : MonoBehaviour
 
         float gw = gridWidth * cellSize;
         float gh = gridHeight * cellSize;
-        transform.position = new Vector2(-gw / 2 + cellSize /2 , gh / 2 - cellSize / 2);
+     //  transform.position = new Vector2(-gw / 2 + cellSize /2 , gh / 2 - cellSize / 2);
     }
 
     private void loadGrid()
