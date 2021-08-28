@@ -5,8 +5,10 @@ using UnityEngine;
 public class PanZoom : MonoBehaviour
 {
     Vector3 touchStart;
-    public float zoomOutMin = 1;
-    public float zoomOutMax = 8;
+    [SerializeField] private float zoomOutMin = 1;
+    [SerializeField] private float zoomOutMax = 8;
+    [Range(0,1)]
+    [SerializeField] private float pinchMultiplier = 0.025f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +30,8 @@ public class PanZoom : MonoBehaviour
         float prevMagnitude = (touchZeroPrevPos - touchOnePrevPos).magnitude;
         float currentMagnitude = (Input.GetTouch(0).position - Input.GetTouch(1).position).magnitude;
         float difference = currentMagnitude - prevMagnitude;
-        zoom( difference * 0.025f);
+        zoom( difference * pinchMultiplier);
+        UnityEngine.Debug.Log(difference * pinchMultiplier);
     }
 
     void Update()

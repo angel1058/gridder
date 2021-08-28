@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class GridMaker : MonoBehaviour
 {
-    [SerializeField] private int gridWidth;
-    [SerializeField] private int gridHeight;
-    [SerializeField] private int cellSize;
+    [SerializeField] private int gridWidth = 10;
+    [SerializeField] private int gridHeight = 10;
+    [SerializeField] private int cellSize = 5;
     
 
     int [,] groundCells;
@@ -18,45 +18,58 @@ public class GridMaker : MonoBehaviour
     
     void Start()
     {
-        Stopwatch sw = new Stopwatch();
-        sw.Start(); 
-        groundCells = new int[gridWidth , gridHeight];
-        for (int gridX = 0 ; gridX < gridWidth ; gridX++)
-            for(int gridY = 0 ; gridY < gridHeight ; gridY++)
-                {
-                    groundCells[gridX , gridY] = 1;
-                }
-        sw.Stop();
-
-        UnityEngine.Debug.Log(String.Format("Generated ground cells in {0} ms" , sw.ElapsedMilliseconds));
-
+        loadGrid();
     }
 
-    private void OnDrawGizmos()
+    public void OnValidate()
     {
-     /*   Stopwatch sw = new Stopwatch();
+        loadGrid();
+    }
+
+    public void OnDrawGizmos()
+    {
+        Stopwatch sw = new Stopwatch();
         sw.Start(); 
         Gizmos.color = Color.white;
 
         for (int gridX = 0 ; gridX < gridWidth ; gridX++)
             for(int gridY = 0 ; gridY < gridHeight ; gridY++)
                 {
-                    Gizmos.DrawLine(transform.position, new Vector2(gridX * cellSize,  gridY * cellSize , 0));
+                    if (groundCells[gridX,gridY] == 1)
+                    {
+                        Gizmos.DrawLine(new Vector3(gridX * cellSize , gridY * cellSize , 0) , new Vector3((gridX*cellSize)+cellSize , gridY * cellSize, 0) );
+                        Gizmos.DrawLine(new Vector3((gridX*cellSize)+cellSize , gridY*cellSize , 0) , new Vector3((gridX*cellSize)+cellSize , (gridY*cellSize)+cellSize , 0) );
+                        
+                    }
                 }
 
         sw.Stop();
 
-        UnityEngine.Debug.Log(String.Format("Drew gizmos in {0} ms" , sw.ElapsedMilliseconds));
         float gw = gridWidth * cellSize;
         float gh = gridHeight * cellSize;
         transform.position = new Vector2(-gw / 2 + cellSize /2 , gh / 2 - cellSize / 2);
-    */
     }
+
+    private void loadGrid()
+    {
+        Stopwatch sw = new Stopwatch();
+        sw.Start(); 
+        groundCells = new int[gridWidth , gridHeight];
+        for (int gridX = 0 ; gridX < gridWidth ; gridX++)
+            for(int gridY = 0 ; gridY < gridHeight ; gridY++)
+                {
+                    if ( gridX == 0 || gridY == 0 || gridX == gridWidth-1 || gridY == gridHeight-1)
+                        groundCells[gridX , gridY] = 1;
+                    else
+                        groundCells[gridX , gridY] = 0;
+                }
+        sw.Stop();
+    }
+
+ 
 
     void Update()
     {
-        updateCount++;
-        UnityEngine.Debug.Log(String.Format("Update Count {0}" , updateCount));
-
+   
     }
 }
