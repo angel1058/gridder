@@ -1,0 +1,400 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/malcolm/Gridder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50988
+Successfully changed project path to: C:/Users/malcolm/Gridder
+C:/Users/malcolm/Gridder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/malcolm/Gridder/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   
+    VRAM:     4064 MB
+    Driver:   21.21.13.7654
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006161 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.313 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.890 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 2.999500 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.117000 ms MarkObjects: 2.421700 ms  DeleteObjects: 0.171500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7198561392c1daab83ea9c2920550812') in 0.082757 seconds
+  Import took 0.087225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 3.173700 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.094500 ms MarkObjects: 2.728100 ms  DeleteObjects: 0.142300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.954128 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd048f33a17cce283899379669c17fcc9') in 0.006179 seconds
+  Import took 0.010061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 3.686400 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.126500 ms  DeleteObjects: 0.170200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.519134 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d44a43622e5cc2522e3b75dcffb714') in 0.009288 seconds
+  Import took 0.014419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008664 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d44a43622e5cc2522e3b75dcffb714') in 0.002960 seconds
+  Import took 0.008481 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 3.122900 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.576500 ms  DeleteObjects: 0.139400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.077903 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb5121723a2a2bfe94b56afc924e13d') in 0.007557 seconds
+  Import took 0.012453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017637 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb5121723a2a2bfe94b56afc924e13d') in 0.003834 seconds
+  Import took 0.008427 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.340 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.852200 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.383200 ms  DeleteObjects: 0.141000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.636372 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae1d4ebb8bba920876688fc08f8058f') in 0.007197 seconds
+  Import took 0.011538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.065175 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397b2930e430fd5bbc955eaad8acbe22') in 0.004079 seconds
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.671853 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cf3b30a888de43d826b8fcebdbb419') in 0.003747 seconds
+  Import took 0.007776 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 3.467500 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.112800 ms MarkObjects: 2.966500 ms  DeleteObjects: 0.151000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.184452 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0152a30f6403358917dea41b31a70630') in 0.008280 seconds
+  Import took 0.013321 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 4.059600 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.118700 ms MarkObjects: 3.528100 ms  DeleteObjects: 0.151900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.816372 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b272e9e55ab6565d3a65ff7d8318b30f') in 0.008860 seconds
+  Import took 0.014484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.441425 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c7c2bdb614b0e2c8b21af350412f31') in 0.002820 seconds
+  Import took 0.007034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.155320 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1335e76296a603e10b7de4f5771f5ca') in 0.004579 seconds
+  Import took 0.011197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.608581 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da33c8df9df8864602fed212b595800a') in 0.002799 seconds
+  Import took 0.007188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.752085 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e455c0afc2d3ae7ac39d758d255f81f') in 0.003672 seconds
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 3.409700 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.855200 ms  DeleteObjects: 0.200000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.274133 seconds.
+  path: Assets/PanZoom.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanZoom.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c942091c514203ac5e8a9c39981be4') in 0.007922 seconds
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 4.173900 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.166700 ms MarkObjects: 3.495200 ms  DeleteObjects: 0.151500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.916982 seconds.
+  path: Assets/Scritps
+  artifactKey: Guid(bc8eebdcd598350489b345b9453c1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scritps using Guid(bc8eebdcd598350489b345b9453c1bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddb1ccefdcb3a887e7dd23e259d46d8') in 0.010178 seconds
+  Import took 0.015696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.063920 seconds.
+  path: Assets/GridMaker.cs
+  artifactKey: Guid(ab4b0d9a11b0b2d49ad2125a3ab4bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GridMaker.cs using Guid(ab4b0d9a11b0b2d49ad2125a3ab4bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5460d23ddc01b0b3ee267f208b3ddbdc') in 0.004184 seconds
+  Import took 0.008830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040580 seconds.
+  path: Assets/GridMaker.cs
+  artifactKey: Guid(ab4b0d9a11b0b2d49ad2125a3ab4bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GridMaker.cs using Guid(ab4b0d9a11b0b2d49ad2125a3ab4bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5460d23ddc01b0b3ee267f208b3ddbdc') in 0.004073 seconds
+  Import took 0.008753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 3.370300 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.823600 ms  DeleteObjects: 0.138100 ms)
+
