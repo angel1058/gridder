@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -200,11 +200,62 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728902370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 29.51, y: 50, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &763812847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 763812849}
+  - component: {fileID: 763812848}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &763812848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763812847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b333231b831a740bf157030992e276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomOutMin: 0.1
+  zoomOutMax: 800
+  scrollMultiplier: 2
+  mainCamera: {fileID: 728902372}
+  HunterDroid: {fileID: 7359947313802123076, guid: 082154c383fbc364996c855b298d26c2, type: 3}
+  Plane_Maker: {fileID: 1115591305}
+  pinchMultiplier: 0.025
+  minHoldTime: 0.4
+--- !u!4 &763812849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763812847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1115591304
 GameObject:
@@ -249,6 +300,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecaf6e4f7ae6bbf4c871e005af45af35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 10
-  Height: 10
   PFB_Plane: {fileID: 1919306699069017480, guid: 1e0f08cc26228dd4ea72f876a3ca1532, type: 3}
+  GridWidth: 3
+  GridHeight: 3
+  MeshWidth: 33
+  MeshHeight: 33
+  NoiseType: 2
+  smoothIterations: 3
+  edgeSize: 1
+  waterFillPercent: 1
+  waterFillPercentRows: 1
+  inlandWater: 1
+  inlandSoil: 1
+  cornerRadius: 1
+  magnification: 15

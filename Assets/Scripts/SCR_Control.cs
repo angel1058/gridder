@@ -9,28 +9,57 @@ public class SCR_Control : MonoBehaviour
     [SerializeField] private float zoomOutMax = 800;
     [SerializeField] private float scrollMultiplier = 2f;
     [SerializeField] private Camera mainCamera;
-    private int gridSize = 8;
+
+    public GameObject HunterDroid;
+    public Transform Plane_Maker;
+
+    int CenterX;
+    int CenterY;
 
     [Range(0,1)]
     [SerializeField] private float pinchMultiplier = 0.025f;
-    [SerializeField] private GameObject gridManager;
 
-    SCR_GridManager script_GridManager = null;
+    SCR_Plane_Maker script_Plane_Maker = null;
+    SCR_Droid script_droid = null;
+
     float holdTime = 0f;
-    public float minHoldTime = .4f;
+    public float minHoldTime = .2f;
     Vector2 _startPosition = Vector2.zero;
 
+    Vector3 _centerVector;
+
+    GameObject hunterDroid; 
     public void Start() 
     {
-        UnityEngine.Debug.Log("Startup");
-        script_GridManager = gridManager.GetComponent<SCR_GridManager>();
-        gridSize = script_GridManager.cellSize;
+        script_Plane_Maker = Plane_Maker.GetComponent<SCR_Plane_Maker>();
+        
+        CenterX = (int)(script_Plane_Maker.GridWidth * script_Plane_Maker.MeshWidth / 2);
+        CenterY = (int)(script_Plane_Maker.GridHeight * script_Plane_Maker.MeshHeight / 2);
+
+        _centerVector = new Vector3(CenterX + 0.5f , CenterY  + 0.5f, 0);
+        Debug.Log("Center is " + _centerVector);
+        SetupHunterDroid();
+        
+        _centerVector.z = 0;
+        Vector3 cameraVector = mainCamera.transform.position;
+        cameraVector.x = _centerVector.x;
+        cameraVector.y = _centerVector.y;
+
+        mainCamera.transform.position = cameraVector;
     }
+
+    private void SetupHunterDroid( )
+    {
+        //droid needs an initial offset as its center point will 
+        hunterDroid = Instantiate(HunterDroid,_centerVector,Quaternion.identity);
+        hunterDroid.transform.SetParent(this.transform);
+        hunterDroid.transform.position = _centerVector;
+        script_droid = hunterDroid.transform.GetComponent<SCR_Droid>();
+    }
+
 
     public void Awake()
     {
-        UnityEngine.Debug.Log("Awake");
-        script_GridManager = gridManager.GetComponent<SCR_GridManager>();
 
     }
 
@@ -62,7 +91,7 @@ public class SCR_Control : MonoBehaviour
         {
             var currVector = touchTwo.position - touchOne.position;
             var angle = Vector2.SignedAngle(_startPosition, currVector);
-            mainCamera.transform.rotation = Quaternion.Euler(0.0f, -180f , mainCamera.transform.rotation.eulerAngles.z - angle);
+            mainCamera.transform.rotation = Quaternion.Euler(0.0f, 0.0f , mainCamera.transform.rotation.eulerAngles.z - angle);
             _startPosition = currVector;
         }
     }
@@ -70,24 +99,26 @@ public class SCR_Control : MonoBehaviour
     void OnClick()
     {
         Vector3 clickPos  = touchStart;
-        int x= (int)((clickPos.x ) / gridSize) ;
-        int y= (int)(clickPos.y / gridSize);
+        int x= (int)((clickPos.x ) ) ;
+        int y= (int)(clickPos.y );
         UnityEngine.Debug.Log(string.Format("Clicked : {0}, {1}" , x , y));
-
-        script_GridManager.SetGridValue(x,y,2);
+        Vector2 droidMove = new Vector2(x , y );
+        script_droid.SetTargetLocation(droidMove);
     }
 
     void MoveCamera()
     {
         Vector3 direction = touchStart - mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        direction.z = 0;
+        Debug.Log("Move Camera - direction : " + direction);
+        
         mainCamera.transform.position += direction;
+        
+        Debug.Log("Move Camera - now at" + mainCamera.transform.position);
     }
 
     void Update()
     {
-        // if ( gridMaker == null)
-        //     gridMaker  = gridMakerTransform.GetComponent<GridMaker>();
-
         if (Input.GetMouseButtonUp(0)) 
         {
             if ( holdTime < minHoldTime)
@@ -102,15 +133,13 @@ public class SCR_Control : MonoBehaviour
             Vector3 mousePos = new Vector3(Input.mousePosition.x ,Input.mousePosition.y  ,  mainCamera.nearClipPlane);
             var oldTouchStart = touchStart.x;
             touchStart = mainCamera.ScreenToWorldPoint(mousePos);
-            UnityEngine.Debug.Log("Touch start = " + touchStart + " Delta : " + (touchStart.x - oldTouchStart));
-            
-            UnityEngine.Debug.Log("Input Pos = " + mousePos);
         }
 
         if ( Input.GetMouseButton(0))
         {
             holdTime += Time.deltaTime;
-            MoveCamera();
+            if ( holdTime > minHoldTime)
+                MoveCamera();
         }
 
         if (Input.touchCount == 2)
@@ -118,24 +147,16 @@ public class SCR_Control : MonoBehaviour
 
         zoom(Input.GetAxis("Mouse ScrollWheel") * scrollMultiplier);
 
-    //  Camera cam = GetComponent<Camera>();
         Vector3 cameraPos = mainCamera.transform.position;
         float height = 2f * mainCamera.orthographicSize;
-        float width = height * mainCamera.aspect;
 
         float top = cameraPos.y;
         float left = cameraPos.x;
         float bottom = cameraPos.y + height;
-        // UnityEngine.Debug.Log("top : " + top + " , Left: " + left + " , Width : " + width +" , Height : " + height);
     }
 
     void zoom(float increment)
     {
-        // if ( Camera == null) UnityEngine.Debug.Log("CAMERA IS NULL");
-        if ( mainCamera == null) UnityEngine.Debug.Log("CAMERA.MAIN IS NULL");
-        
-
-
         mainCamera.orthographicSize = Mathf.Clamp(mainCamera.orthographicSize - increment , zoomOutMin, zoomOutMax);
     }
 
