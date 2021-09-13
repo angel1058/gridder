@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -239,10 +239,10 @@ MonoBehaviour:
   zoomOutMax: 800
   scrollMultiplier: 2
   mainCamera: {fileID: 728902372}
-  HunterDroid: {fileID: 7359947313802123076, guid: 082154c383fbc364996c855b298d26c2, type: 3}
+  HunterDroid: {fileID: 2160718234485943032, guid: 4dcb94d05c00ba740917e4c42c75d68a, type: 3}
   Plane_Maker: {fileID: 1115591305}
   pinchMultiplier: 0.025
-  minHoldTime: 0.4
+  minHoldTime: 0.2
 --- !u!4 &763812849
 Transform:
   m_ObjectHideFlags: 0
@@ -267,7 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115591305}
   - component: {fileID: 1115591306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

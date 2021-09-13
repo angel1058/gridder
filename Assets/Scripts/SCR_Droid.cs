@@ -41,7 +41,6 @@ public class SCR_Droid : MonoBehaviour
         if (_target == null || !_moving)
             return;
 
-
         if ( (Vector2)(transform.position) == _target)
         {
             transform.position = _target;

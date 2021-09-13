@@ -9,10 +9,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Drone
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -41,4 +41,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Drone
+    uniqueID: 3218770737
+    locked: 0
+  - name: Ground
+    uniqueID: 3336107165
     locked: 0
