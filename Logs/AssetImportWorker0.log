@@ -1,0 +1,1105 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/malcolm/Gridder
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49865
+Successfully changed project path to: C:/Users/malcolm/Gridder
+C:/Users/malcolm/Gridder
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/malcolm/Gridder/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   
+    VRAM:     4064 MB
+    Driver:   21.21.13.7654
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005685 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\..\IDE\devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  6.036 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 2.992800 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.119400 ms MarkObjects: 2.512000 ms  DeleteObjects: 0.136500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/SCR_Control.cs
+  artifactKey: Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SCR_Control.cs using Guid(42b333231b831a740bf157030992e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60022f7f860e0517651bf6814d71ed9f') in 0.064945 seconds
+  Import took 0.072736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.661921 seconds.
+  path: Assets/Scripts/NoiseGenerator.cs
+  artifactKey: Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NoiseGenerator.cs using Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6389c719a99e200c1593788d05b89') in 0.004082 seconds
+  Import took 0.011141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Scripts/NoiseGenerator.cs
+  artifactKey: Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NoiseGenerator.cs using Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6389c719a99e200c1593788d05b89') in 0.003978 seconds
+  Import took 0.007742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.030075 seconds.
+  path: Assets/Scripts/SCR_NoiseGenerator.cs
+  artifactKey: Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SCR_NoiseGenerator.cs using Guid(585bb27f3659e9c458cc709dac52346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c81656068a522dfadf487ab461473b') in 0.004518 seconds
+  Import took 0.011282 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.6 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 3.389800 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.918400 ms  DeleteObjects: 0.123900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.974122 seconds.
+  path: Assets/Scripts/Ground
+  artifactKey: Guid(6fdc6453b77ef78448c5b0aa58a330ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ground using Guid(6fdc6453b77ef78448c5b0aa58a330ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b729409035c9817817b71d33d1173683') in 0.010411 seconds
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.6 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.399900 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.112900 ms MarkObjects: 2.934700 ms  DeleteObjects: 0.127000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.251890 seconds.
+  path: Assets/Scripts/Droid
+  artifactKey: Guid(85392d8f360f46549ab2c2147742d6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid using Guid(85392d8f360f46549ab2c2147742d6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43edc0cdbf71fa1e501cb69d6c1cb73a') in 0.012007 seconds
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 3.456800 ms (FindLiveObjects: 0.294600 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.922900 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 4.174400 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.117400 ms MarkObjects: 3.664600 ms  DeleteObjects: 0.143400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.440879 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d533cf155abf99394e55f1bf964f8d2') in 0.009310 seconds
+  Import took 0.018092 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 3.767300 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.117600 ms MarkObjects: 3.263900 ms  DeleteObjects: 0.141600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 3.571700 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.075000 ms  DeleteObjects: 0.132900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2571.332864 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7030f5c99165a799fa7638660ea0fd9') in 0.007591 seconds
+  Import took 0.015402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041395 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7030f5c99165a799fa7638660ea0fd9') in 0.004744 seconds
+  Import took 0.010203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.316879 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390e76c73c23a4254e32b41cdc590124') in 0.004282 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 4.155100 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.133800 ms MarkObjects: 3.600800 ms  DeleteObjects: 0.146600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1051.379248 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e480d8c5dfb57994e230917a159b0ea1') in 0.009684 seconds
+  Import took 0.019480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001306 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e480d8c5dfb57994e230917a159b0ea1') in 0.004610 seconds
+  Import took 0.010715 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 3.597000 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.030300 ms  DeleteObjects: 0.134300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 3.384800 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.210800 ms MarkObjects: 2.702400 ms  DeleteObjects: 0.133100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.271479 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691ab27ee6beb1b22553bc7b683ccd5') in 0.008282 seconds
+  Import took 0.017369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691ab27ee6beb1b22553bc7b683ccd5') in 0.004188 seconds
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 3.926100 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.112300 ms MarkObjects: 3.419900 ms  DeleteObjects: 0.151900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 3.485800 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.113700 ms MarkObjects: 2.940900 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.204506 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41c7ec06d7221c4631e177e9d666630') in 0.008267 seconds
+  Import took 0.014092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002679 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41c7ec06d7221c4631e177e9d666630') in 0.004136 seconds
+  Import took 0.009277 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 2.946600 ms (FindLiveObjects: 0.234100 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.476400 ms  DeleteObjects: 0.123700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.089211 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a4ed0fe387d2d9a3d2db08b6cc3d8a') in 0.007717 seconds
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001504 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a4ed0fe387d2d9a3d2db08b6cc3d8a') in 0.003734 seconds
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 3.394900 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.838100 ms  DeleteObjects: 0.181300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.801643 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69350adc480f54d392aa6abf4ab6e244') in 0.008478 seconds
+  Import took 0.017622 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 3.534700 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.114300 ms MarkObjects: 3.007000 ms  DeleteObjects: 0.148400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.692138 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ede6ed87689d0732490922319ea23b') in 0.008916 seconds
+  Import took 0.017094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.233694 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d450e673967e0780d7d72d25149271') in 0.004878 seconds
+  Import took 0.014502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.380820 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9b0b51d3bb194d0e055bba3d6df9f7') in 0.010063 seconds
+  Import took 0.018877 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 3.450800 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.244400 ms MarkObjects: 2.781000 ms  DeleteObjects: 0.132600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.244723 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcf5af2eab6d869806ed210fd8b4339') in 0.008502 seconds
+  Import took 0.017160 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 4.051900 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.218500 ms MarkObjects: 3.373000 ms  DeleteObjects: 0.143200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.423468 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82912a5e196869326d8bd91bf9c47915') in 0.010303 seconds
+  Import took 0.018536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82912a5e196869326d8bd91bf9c47915') in 0.003769 seconds
+  Import took 0.008565 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 3.770700 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.167900 ms MarkObjects: 3.120700 ms  DeleteObjects: 0.164200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.453601 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8491bebdf1e47317c66ac219ecb33276') in 0.009054 seconds
+  Import took 0.015318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.011314 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95acf4eb4bcd4bb540a036a5ecd88dcd') in 0.004940 seconds
+  Import took 0.010906 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010177 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 3.278700 ms (FindLiveObjects: 0.254200 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.775600 ms  DeleteObjects: 0.133800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.943089 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56f49bd717a6b7321d03fab60526ae7') in 0.007724 seconds
+  Import took 0.015206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2607.
+Total: 3.694500 ms (FindLiveObjects: 0.514900 ms CreateObjectMapping: 0.176600 ms MarkObjects: 2.864100 ms  DeleteObjects: 0.137400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 4.471900 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.165800 ms MarkObjects: 3.755400 ms  DeleteObjects: 0.136400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.811750 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d95e1a718666e08723d7347be7b50') in 0.010032 seconds
+  Import took 0.019052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1d95e1a718666e08723d7347be7b50') in 0.004926 seconds
+  Import took 0.013908 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 3.079600 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.519000 ms  DeleteObjects: 0.135300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.098193 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa62f1479d02de4015f96f54e13a786') in 0.007690 seconds
+  Import took 0.015836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058162 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa62f1479d02de4015f96f54e13a786') in 0.004336 seconds
+  Import took 0.009245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 3.412400 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.865400 ms  DeleteObjects: 0.130200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 4.841200 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.140600 ms MarkObjects: 4.268800 ms  DeleteObjects: 0.154100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 363.029425 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e368229f0328c2a55bdd7e4bb2bc8037') in 0.008329 seconds
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061439 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e368229f0328c2a55bdd7e4bb2bc8037') in 0.004471 seconds
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 3.965200 ms (FindLiveObjects: 0.449300 ms CreateObjectMapping: 0.255900 ms MarkObjects: 3.113400 ms  DeleteObjects: 0.143800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.816 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 3.736900 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.193400 ms MarkObjects: 3.077100 ms  DeleteObjects: 0.130900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.747191 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5f6c28a43e0494b7eae966e26b301c') in 0.007612 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060298 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5f6c28a43e0494b7eae966e26b301c') in 0.004388 seconds
+  Import took 0.010509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.769400 ms (FindLiveObjects: 0.356800 ms CreateObjectMapping: 0.118600 ms MarkObjects: 3.162000 ms  DeleteObjects: 0.130400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.930249 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55dfc8089cab88947a2c5b7e213915f') in 0.009119 seconds
+  Import took 0.017431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.422850 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5fabbce8023ab7398b80929c50435c') in 0.005042 seconds
+  Import took 0.012248 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 3.653500 ms (FindLiveObjects: 0.307500 ms CreateObjectMapping: 0.142600 ms MarkObjects: 2.994800 ms  DeleteObjects: 0.205900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.551541 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303dbd67aead2830ce2c595190428518') in 0.008589 seconds
+  Import took 0.016507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 4.174700 ms (FindLiveObjects: 0.486100 ms CreateObjectMapping: 0.227900 ms MarkObjects: 3.320800 ms  DeleteObjects: 0.137300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1106.394264 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d89bc78b2d5816191fb79d6d2bbfa') in 0.009708 seconds
+  Import took 0.015508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 4.317200 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.196900 ms MarkObjects: 3.669700 ms  DeleteObjects: 0.142000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.304919 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100457bba56b02f354e21ad833de4b8a') in 0.008592 seconds
+  Import took 0.019405 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.823500 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.135300 ms MarkObjects: 3.274700 ms  DeleteObjects: 0.138400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 3.077600 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.110600 ms MarkObjects: 2.590000 ms  DeleteObjects: 0.133500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 456.166767 seconds.
+  path: Assets/Scripts/Droid/SCR_Droid.cs
+  artifactKey: Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Droid/SCR_Droid.cs using Guid(d788774a21b0edb438f26fb1158c0534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d18f301208502ecb6838ded7f61b62') in 0.007748 seconds
+  Import took 0.015240 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 3.357300 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.794600 ms  DeleteObjects: 0.131000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 3.326400 ms (FindLiveObjects: 0.331600 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.754000 ms  DeleteObjects: 0.127500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.721 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 4.933600 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.131400 ms MarkObjects: 4.266400 ms  DeleteObjects: 0.150200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 3.311900 ms (FindLiveObjects: 0.325800 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.736000 ms  DeleteObjects: 0.133100 ms)
+

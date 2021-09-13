@@ -80,12 +80,11 @@ public class SCR_Control : MonoBehaviour
         float difference = currentMagnitude - prevMagnitude;
         zoom( difference * pinchMultiplier);
 
-
         var touchOne = Input.GetTouch(0);
         var touchTwo = Input.GetTouch(1);
  
         if (touchOne.phase == TouchPhase.Began || touchTwo.phase == TouchPhase.Began)
-        _startPosition = touchTwo.position - touchOne.position;
+            _startPosition = touchTwo.position - touchOne.position;
     
         if (touchOne.phase == TouchPhase.Moved || touchTwo.phase == TouchPhase.Moved)
         {
@@ -110,11 +109,7 @@ public class SCR_Control : MonoBehaviour
     {
         Vector3 direction = touchStart - mainCamera.ScreenToWorldPoint(Input.mousePosition);
         direction.z = 0;
-        Debug.Log("Move Camera - direction : " + direction);
-        
         mainCamera.transform.position += direction;
-        
-        Debug.Log("Move Camera - now at" + mainCamera.transform.position);
     }
 
     void Update()
